@@ -1,0 +1,388 @@
+
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+
+
+
+
+.somelinkit{
+    color:white;
+    font-size: 30px;
+    padding-right: 5px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.flexi {
+    flex-direction: row-reverse;
+}
+
+.flex3 {
+    flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 1200px) {
+    .flex3 {
+        flex-direction: column;
+       
+    }
+}
+
+p{
+    font-size: 20px;
+}
+
+.kysymykset{
+    
+    height:100%;
+    width:100%;
+    margin-top:-20px;
+}
+
+.svgkuva4{
+    width:100%;
+    text-align: center;
+}
+
+.kysymys{
+    font-weight: 700;
+    font-size: 50px;
+    padding-top: 60px;
+   
+    text-align: center;
+    padding-bottom: 30px;
+    color:rgb(41, 40, 40);
+}
+
+
+.comment{
+    padding-left: 10px;
+    font-size: 45px;
+}
+
+.linkki:hover {
+    color:purple !important;
+    text-decoration: none !important;
+}
+
+#icon{
+    font-size: 30px; 
+}
+
+.lomake{
+
+    width:100%;
+    height:100%;
+    padding-bottom:100px;
+    color:rgb(90, 90, 90);
+}
+
+.yhteyslomake{
+   padding-top:100px;
+}
+
+.yhteys{
+    text-align: center;
+    color:white;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom:30px;
+}
+
+.nimet{
+    font-size: 23px;
+    font-weight: 700;
+    color:white;
+}
+
+.yhteystiedot{
+    text-align: center;
+    
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.yhte{
+    text-align: center;
+   
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.galleria{
+ 
+    width:100%;
+    margin-top:-24px;
+    padding-bottom:100px;
+}
+
+
+
+.lomake2{
+ background-color: rgb(131, 210, 247) !important;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(56, 178, 235);
+    padding-left: 20px;
+   
+    padding-right:20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+
+.svgkuva{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+}
+
+.carousel-inner img {
+    
+    filter: grayscale(40%); /* make all photos black and white */ 
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    max-height: 700px;
+    height:80%;
+    
+}
+
+.footer1{
+    width:100%;
+}
+
+.teksti5{
+    text-align: center;
+}
+
+
+
+footer{
+    text-align: center;
+    color:#6666a0;
+    width: 100%;
+    line-height: 20px;
+  
+  }
+
+.imgtext{
+    padding-top:20px;
+    text-align: center;
+}
+
+.text2{
+    text-align: center;
+}
+
+.ylakuva{
+    filter: grayscale(40%);
+    width: 100%;
+    position:relative;
+    background:url("kuvat/palvelut3.jpg");
+    background-size:cover;
+    min-height:100px;
+    padding-bottom:500px;
+    overflow:hidden;
+   
+}
+.ylakuva:after{
+    content:'';
+    position:absolute;
+    bottom:0; left:0;
+    border-left:80vw solid white;
+    border-right:50vw solid white;
+    border-top:150px solid transparent;
+}
+
+.seina{
+    width: 200px;
+    height: 40px;
+    background-color: #5e72e4 ;
+    color: white;
+    font-size: 22px;
+}
+
+.palvelut2{
+  
+
+ height:100%;
+}
+
+
+
+.otsikko5{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(59, 59, 59);
+}
+
+
+
+
+
+.svgkuva2{
+    width:100%;
+    
+}
+.svgkuva5{
+    width:100%;
+}
+.svgkuva3{
+    width:80%;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .svgkuva2 {
+     margin-top:-100px;
+     margin-bottom:-200px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .person {
+        height:250px;
+        width:250px;
+    }
+}
+
+.mapsi{
+    width:100%;
+    text-align: center;
+}
+
+
+
+.nappi{
+ border: 5px solid #b5b7c4;
+    height: 80px;
+    width: 80px;
+    
+    border-radius: 50px;
+
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .nappi{
+        height: 50px;
+        width: 50px;
+     
+    }
+}
+
+#svg107490{
+ width: 100%;
+}
+
+.otsikko{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.h1-text{
+    font-weight: 700;
+    font-size: 45px;
+    color: rgb(80, 79, 79);
+}
+
+.p-text{
+    color: rgb(80, 79, 79);
+}
+
+.btn-secondary:focus, .btn-secondary:hover, .part-selector.active, .part-selector.active:focus, .part-selector.active:hover {
+    background-color: #11cdef!important;
+    color: #fff!important;
+}
+
+
+.buttons{
+    width:500px;
+    height: 300px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .buttons {
+     width:80%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #icon{
+        font-size: 17px !important;
+    }
+    .otsikko {
+        font-size: 17px !important;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .alaotsikko {
+        font-size: 1rem !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    p {
+        font-size: 1rem !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .yhteys {
+        font-size: 30px!important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .flexi {
+        flex-direction: column;
+       
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .henkilo{
+        padding-bottom: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .h1-text{
+        font-size: 2rem !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .yhteyskuva {
+        width: 80%;
+       
+    }
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .ylakuva:after {
+        border-left:50vw solid white;
+        border-right:50vw solid white; 
+        
+       
+    }
+    .ylakuva{
+        padding-bottom:60%;
+    }
+}
+
